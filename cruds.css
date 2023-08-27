@@ -1,0 +1,142 @@
+/* ------------  main stracture  ------------ */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #171717;
+    color:#EDEDED;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+}
+.container{
+    width:80%;
+
+    margin:auto;
+    
+}
+/* -----------  head section  --------- */
+.head{
+    margin: 15px 0;
+    border-bottom: 1px solid #DA0037;
+}
+.head h1{
+    padding:5px 0;
+    font-size: 40px;
+    font-weight: 600;
+    color:#DA0037;
+}
+.head h3{
+    padding:5px 0;
+    font-size: 25px;
+    font-weight: 400;
+    color:#EDEDED;
+}
+/* -----------   section edit --------- */
+.edit input{
+    border:none;
+    outline: none;
+    background-color: #444444;
+    color: #EDEDED;
+    padding: 5px;
+    border-radius: 10px;  
+    width: 100%;
+    height:30px;
+    margin: 5px 0;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.edit input:focus{
+    scale: 1.02;
+    background-color: #604444;
+}
+.edit .number input{
+   flex: 0 0 25%;
+   width:20%;
+    margin: 5px 5px;
+
+}
+.edit .number p{
+    font-size: 25px;
+    font-weight: 400;
+    color: #DA0037;
+}
+.edit .number span{
+    color: #EDEDED;
+}
+.btn , .edit button{
+    border:none;
+    outline: none;
+    background-color: #DA0037;
+    color: #EDEDED;
+    
+    border-radius: 10px;  
+    width: 100%;
+    height:40px;
+    margin: 5px 0;
+    transition: .1s;
+    font-size: 30px;
+    cursor: pointer;
+} 
+ button:active{
+
+    background-color: #6d0d25;
+}
+
+
+
+/* --------------------------------- */
+.outputs{
+display: flex;
+justify-content: space-between; 
+}
+.outputs #search{
+width:60%;
+
+}
+.outputs .btnSearch{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.outputs .btnSearch div{
+    display: flex;
+    
+
+}
+
+.outputs .btnSearch :hover{
+    color: #6d0d25;
+}
+/* ---------------------------------- */
+table{
+    width: 100%;
+    text-align: center;
+    margin:10px 0;
+
+}
+table button{
+    border:none;
+    outline: none;
+    background-color: #DA0037;
+    color: #EDEDED;
+    font-size: 22px;
+    border-radius: 10px;  
+    width: 100%;
+    margin: 5px 0;
+    transition: .1s;
+    cursor: pointer;
+}
+table .th{
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 22px;
+
+}
+
+
+
+
+
